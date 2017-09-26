@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\HCRUDEasy\\src\\HCRUDEasy.Domain\\HCRUDEasy.Domain.csproj",
+      "projectUniqueName": "C:\\HCRUDEasyTeste\\src\\HCRUDEasy.Domain\\HCRUDEasy.Domain.csproj",
       "projectName": "HCRUDEasy.Domain",
-      "projectPath": "C:\\HCRUDEasy\\src\\HCRUDEasy.Domain\\HCRUDEasy.Domain.csproj",
+      "projectPath": "C:\\HCRUDEasyTeste\\src\\HCRUDEasy.Domain\\HCRUDEasy.Domain.csproj",
       "packagesPath": "C:\\Users\\arauj\\.nuget\\packages\\",
-      "outputPath": "C:\\HCRUDEasy\\src\\HCRUDEasy.Domain\\obj\\",
+      "outputPath": "C:\\HCRUDEasyTeste\\src\\HCRUDEasy.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

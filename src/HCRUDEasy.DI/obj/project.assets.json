@@ -3495,11 +3495,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\HCRUDEasy\\src\\HCRUDEasy.DI\\HCRUDEasy.DI.csproj",
+      "projectUniqueName": "C:\\HCRUDEasyTeste\\src\\HCRUDEasy.DI\\HCRUDEasy.DI.csproj",
       "projectName": "HCRUDEasy.DI",
-      "projectPath": "C:\\HCRUDEasy\\src\\HCRUDEasy.DI\\HCRUDEasy.DI.csproj",
+      "projectPath": "C:\\HCRUDEasyTeste\\src\\HCRUDEasy.DI\\HCRUDEasy.DI.csproj",
       "packagesPath": "C:\\Users\\arauj\\.nuget\\packages\\",
-      "outputPath": "C:\\HCRUDEasy\\src\\HCRUDEasy.DI\\obj\\",
+      "outputPath": "C:\\HCRUDEasyTeste\\src\\HCRUDEasy.DI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3518,8 +3518,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\HCRUDEasy\\src\\HCRUDEasy.Data\\HCRUDEasy.Data.csproj": {
-              "projectPath": "C:\\HCRUDEasy\\src\\HCRUDEasy.Data\\HCRUDEasy.Data.csproj"
+            "C:\\HCRUDEasyTeste\\src\\HCRUDEasy.Data\\HCRUDEasy.Data.csproj": {
+              "projectPath": "C:\\HCRUDEasyTeste\\src\\HCRUDEasy.Data\\HCRUDEasy.Data.csproj"
             }
           }
         }
