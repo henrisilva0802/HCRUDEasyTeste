@@ -34,3 +34,12 @@ C:\HCRUDEasyMexendo3ATUAL\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy
 C:\HCRUDEasyMexendo3ATUAL\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.AssemblyInfo.cs
 C:\HCRUDEasyMexendo3ATUAL\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.dll
 C:\HCRUDEasyMexendo3ATUAL\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.pdb
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\bin\Debug\netcoreapp2.0\HCRUDEasy.Domain.deps.json
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\bin\Debug\netcoreapp2.0\HCRUDEasy.Domain.dll
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\bin\Debug\netcoreapp2.0\HCRUDEasy.Domain.pdb
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.csprojResolveAssemblyReference.cache
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.csproj.CoreCompileInputs.cache
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.AssemblyInfoInputs.cache
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.AssemblyInfo.cs
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.dll
+C:\HCRUDEasyTeste\src\HCRUDEasy.Domain\obj\Debug\netcoreapp2.0\HCRUDEasy.Domain.pdb
