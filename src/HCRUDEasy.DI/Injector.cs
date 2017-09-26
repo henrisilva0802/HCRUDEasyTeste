@@ -7,7 +7,7 @@ using HCRUDEasy.Domain.Person.Candidate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace HCRUDEasy.DI
+namespace HCRUDEasy.DI//
 {
     public class Injector
     {
