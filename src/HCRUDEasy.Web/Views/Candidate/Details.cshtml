@@ -1,0 +1,88 @@
+﻿@model HCRUDEasy.Web.ViewsModels.CandidateViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <h2>Candidate Table</h2>
+        <p>These are the Easy's candidates:</p>
+        @if (@Model != null)
+        {
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <td>@Model.Id</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>@Model.Email</td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td>@Model.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Phone</th>
+                        <td>@Model.Phone</td>
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <td>@Model.City</td>
+                    </tr>
+                    <tr>
+                        <th>State</th>
+                        <td>@Model.State</td>
+                    </tr>
+                    <tr>
+                        <th>BankInformationId</th>
+                        <td>@Model.BankInformationId</td>
+                    </tr>
+                    <tr>
+                        <th>BankInformationPersonName</th>
+                        <td>@Model.BankInformationPersonName</td>
+                    </tr>
+                    <tr>
+                        <th>BankInformationCpf</th>
+                        <td>@Model.BankInformationCpf</td>
+                    </tr>
+                    <tr>
+                        <th>BankInformationBankName</th>
+                        <td>@Model.BankInformationBankName</td>
+                    </tr>
+                    <tr>
+                        <th>BankInformationAgency</th>
+                        <td>@Model.BankInformationAgency</td>
+                    </tr>
+                    <tr>
+                        <th>BankInformationAccountType</th>
+                        <td>@Model.BankInformationAccountType</td>
+                    </tr>
+                    <tr>
+                        <th>BankInformationAccountNumber</th>
+                        <td>@Model.BankInformationAccountNumber</td>
+                    </tr>
+                </thead>
+
+            </table>
+        }
+
+        <center>
+            <input type="button" value="Back" onclick="location.href='/Candidate/List'" />
+        </center>
+    </div>
+</body>
+
+
+

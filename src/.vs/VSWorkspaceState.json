@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HCRUDEasy.Domain",
+    "\\HCRUDEasy.Domain\\Person",
+    "\\HCRUDEasy.Domain\\Person\\Attributes",
+    "\\HCRUDEasy.Domain\\Person\\Attributes\\Work"
+  ],
+  "SelectedNode": "\\HCRUDEasy.Domain\\Person\\Attributes\\Work\\Skill.cs",
+  "PreviewInSolutionExplorer": false
+}

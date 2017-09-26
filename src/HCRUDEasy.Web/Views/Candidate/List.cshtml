@@ -1,0 +1,51 @@
+﻿@model IEnumerable<HCRUDEasy.Web.ViewsModels.CandidateViewModel>
+
+
+@{
+    ViewData["Title"] = "Candidate";
+}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <h2>Candidate Table</h2>
+        <p>These are the Easy's candidates:</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+       @if (@Model != null)
+    {
+        foreach (var viewModel in @Model)
+        {
+                    <tr>
+                        <td>@viewModel.Name</td>
+                        <td>@viewModel.Email</td>
+                        <td>
+                            <a href="/Candidate/Details/@viewModel.Id">Details</a>
+                            <a href="/Candidate/Edit/@viewModel.Id">Edit</a>
+                            <a href="/Candidate/Delete/@viewModel.Id">Delete</a>
+                        </td>
+
+                    </tr>
+        }
+    }
+            </tbody>
+        </table>
+    </div>
+
+</body>

@@ -1,0 +1,453 @@
+﻿@model HCRUDEasy.Web.ViewsModels.CandidateViewModel
+@{
+    ViewData["Title"] = "Personal Information";
+}
+<div class="row header">
+    <div class="col-md-12">
+        <h3>Candidate</h3>
+        <!-- <a href="/Candidate" class="btn btn-primary">Back</a> -->
+    </div>
+</div>
+<div class="row form-wrapper">
+    <div class="col-md-12">
+        <form id="form" class="form-horizontal" asp-action="CandidateForm" asp-controller="Candidate" method="post">
+            <!-- <input type="hidden" class="form-control" asp-for="Id">-->
+            <!-- <select class="form-control" asp-for="BankInformationId"></select> -->
+
+            <center> <h3>Personal Information</h3></center>
+
+         
+            <div class="form-group">
+                <label class="col-md-2 control-label">Name</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Email</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Phone</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Phone">
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">City</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="City">
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">State</label>
+                <div class="col-md-8">
+                    <input class="form-control" asp-for="State">
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div> 
+
+
+
+
+
+          <center> <h3>Bank Information</h3></center>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Personal Name</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="BankInformationPersonName">
+                    <span asp-validation-for="BankInformationPersonName" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">CPF</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="BankInformationCpf">
+                    <span asp-validation-for="BankInformationCpf" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Bank Name</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="BankInformationBankName">
+                    <span asp-validation-for="BankInformationBankName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Agency</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="BankInformationAgency">
+                    <span asp-validation-for="BankInformationAgency" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Account Type</label>
+                <div class="col-md-8">
+                    <input class="form-control" asp-for="BankInformationAccountType">
+                    <span asp-validation-for="BankInformationAccountType" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Account Number</label>
+                <div class="col-md-8">
+                    <input class="form-control" asp-for="BankInformationAccountNumber">
+                    <span asp-validation-for="BankInformationAccountNumber" class="text-danger"></span>
+                </div>
+            </div> 
+
+
+
+
+
+
+
+          
+          <!--  <center> <h3>Candidate Information</h3></center>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Skype</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Linkedin</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">PortFolio</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Phone">
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">WorkDisponibility</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="City">
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">WorkSchedule</label>
+                <div class="col-md-8">
+                    <input class="form-control" asp-for="State">
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Salary</label>
+                <div class="col-md-8">
+                    <input class="form-control" asp-for="State">
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">PaymentType</label>
+                <div class="col-md-8">
+                    <input class="form-control" asp-for="State">
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+
+
+
+        
+
+            <center> <h3>Skill Information</h3></center>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Ionic</label>
+                <div class="col-md-8">
+                
+                    
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Android</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">iOs</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Phone">
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Html</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="City">
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">CSS</label>
+                <div class="col-md-8">
+                    <input class="form-control" asp-for="State">
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Bootstrap</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">jQuery</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">AngularJs</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Java</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">AspNetMvc</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">C</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">C++</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Cake</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Django</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Majento</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">PHP</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">WordPress</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Python</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Ruby</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">SQL Server</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">My SQL</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            
+            <div class="form-group">
+                <label class="col-md-2 control-label">Sales Force</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">PhotoShop</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Illustrator</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Seo</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Other Skill</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>  -->
+
+
+
+            <!--Submit button-->
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-8">
+                    <center> <button class="btn btn-success">Save</button></center>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+
+

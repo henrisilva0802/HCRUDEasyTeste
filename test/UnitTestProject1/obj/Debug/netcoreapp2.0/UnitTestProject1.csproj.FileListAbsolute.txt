@@ -1,0 +1,14 @@
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.deps.json
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.runtimeconfig.json
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.runtimeconfig.dev.json
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.dll
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.AssemblyInfoInputs.cache
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.AssemblyInfo.cs
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.pdb
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.dll
+C:\HCRUDEasyMexendo3\test\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.pdb

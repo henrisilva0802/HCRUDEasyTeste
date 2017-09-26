@@ -1,0 +1,11 @@
+C:\HCRUDEasyMexendo3\src\seleniumDemo\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\HCRUDEasyMexendo3\src\seleniumDemo\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\HCRUDEasyMexendo3\src\seleniumDemo\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\HCRUDEasyMexendo3\src\seleniumDemo\bin\Debug\netcoreapp2.0\seleniumDemo.deps.json
+C:\HCRUDEasyMexendo3\src\seleniumDemo\bin\Debug\netcoreapp2.0\seleniumDemo.runtimeconfig.json
+C:\HCRUDEasyMexendo3\src\seleniumDemo\bin\Debug\netcoreapp2.0\seleniumDemo.runtimeconfig.dev.json
+C:\HCRUDEasyMexendo3\src\seleniumDemo\bin\Debug\netcoreapp2.0\seleniumDemo.dll
+C:\HCRUDEasyMexendo3\src\seleniumDemo\obj\Debug\netcoreapp2.0\seleniumDemo.csprojResolveAssemblyReference.cache
+C:\HCRUDEasyMexendo3\src\seleniumDemo\obj\Debug\netcoreapp2.0\seleniumDemo.csproj.CoreCompileInputs.cache
+C:\HCRUDEasyMexendo3\src\seleniumDemo\obj\Debug\netcoreapp2.0\seleniumDemo.AssemblyInfoInputs.cache
+C:\HCRUDEasyMexendo3\src\seleniumDemo\obj\Debug\netcoreapp2.0\seleniumDemo.AssemblyInfo.cs

@@ -1,0 +1,130 @@
+﻿@model HCRUDEasy.Web.ViewsModels.CandidateViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <h2>Candidate Table</h2>
+        <p>These are the Easy's candidates:</p>
+        @if (@Model != null)
+        {
+    <form id="form" class="form-horizontal" asp-action="Edit" asp-controller="Candidate" method="post">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="Id">
+                        <span asp-validation-for="Id" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Email</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="Email">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="Phone">
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="City">
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>State</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="State">
+                        <span asp-validation-for="State" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BankInformationId</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="BankInformationId">
+                        <span asp-validation-for="BankInformationId" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BankInformationPersonName</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="BankInformationPersonName">
+                        <span asp-validation-for="BankInformationPersonName" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BankInformationCpf</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="BankInformationCpf">
+                        <span asp-validation-for="BankInformationCpf" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BankInformationBankName</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="BankInformationBankName">
+                        <span asp-validation-for="BankInformationBankName" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BankInformationAgency</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="BankInformationAgency">
+                        <span asp-validation-for="BankInformationAgency" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BankInformationAccountType</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="BankInformationAccountType">
+                        <span asp-validation-for="BankInformationAccountType" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BankInformationAccountNumber</th>
+                    <td>
+                        <input type="text" class="form-control" asp-for="BankInformationAccountNumber">
+                        <span asp-validation-for="BankInformationAccountNumber" class="text-danger"></span>
+                    </td>
+                </tr>
+            </thead>
+
+        </table>
+
+        <center> <button class="btn btn-success">Save</button></center>
+    </form>
+     }
+        <center>
+            <input type="button" value="Back " onclick="location.href='/Candidate/List'" />
+        </center>
+    </div>
+</body>
+
+
+
