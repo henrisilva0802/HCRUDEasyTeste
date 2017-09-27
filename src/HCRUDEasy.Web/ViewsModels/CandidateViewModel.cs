@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HCRUDEasy.Web.ViewsModels
 {
-    public class CandidateViewModel
+    public class CandidateViewModel //
     {
         public int Id { get; set; }
         [Required]
