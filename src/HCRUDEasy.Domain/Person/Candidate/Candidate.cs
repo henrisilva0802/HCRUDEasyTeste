@@ -1,6 +1,5 @@
 ﻿using HCRUDEasy.Domain.Bank;
-using HCRUDEasy.Domain.Person.Attributes.Work.Information;
-using HCRUDEasy.Domain.Person.Attributes.Work.Skill;
+
 
 namespace HCRUDEasy.Domain.Person.Candidate
 {

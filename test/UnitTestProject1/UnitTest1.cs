@@ -11,10 +11,10 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            IWebDriver driver = new ChromeDriver(@"C:\HCRUDEasyMexendo3\test\UnitTestProject1\bin\Debug\netcoreapp2.0\");
-            driver.Navigate().GoToUrl("http://localhost:56515/");
+            IWebDriver driver = new ChromeDriver(@"C:\HCRUDEasyTeste\test\UnitTestProject1\bin\Debug\netcoreapp2.0");
+            driver.Navigate().GoToUrl("http://localhost:56515");
             Console.WriteLine("Test Completed !!!");
-            Console.ReadKey();
+        
         }
     }
 }

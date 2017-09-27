@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HCRUDEasy.Data", "HCRUDEasy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HCRUDEasy.DI", "HCRUDEasy.DI\HCRUDEasy.DI.csproj", "{211D2659-6992-4B53-8834-C0413E6BE611}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "..\test\UnitTestProject1\UnitTestProject1.csproj", "{E3B70B96-050B-4DBA-AC0F-DE4E489FF083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{211D2659-6992-4B53-8834-C0413E6BE611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{211D2659-6992-4B53-8834-C0413E6BE611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211D2659-6992-4B53-8834-C0413E6BE611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B70B96-050B-4DBA-AC0F-DE4E489FF083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B70B96-050B-4DBA-AC0F-DE4E489FF083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B70B96-050B-4DBA-AC0F-DE4E489FF083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B70B96-050B-4DBA-AC0F-DE4E489FF083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
