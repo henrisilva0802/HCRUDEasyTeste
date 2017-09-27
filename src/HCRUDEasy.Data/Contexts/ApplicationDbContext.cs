@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
 using HCRUDEasy.Domain.Person.Candidate;
 using HCRUDEasy.Domain.Bank;
-using HCRUDEasy.Domain;
+
 
 namespace HCRUDEasy.Data.Contexts
 {
