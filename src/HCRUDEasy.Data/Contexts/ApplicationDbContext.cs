@@ -3,7 +3,7 @@ using HCRUDEasy.Domain.Person.Candidate;
 using HCRUDEasy.Domain.Bank;
 
 
-namespace HCRUDEasy.Data.Contexts
+namespace HCRUDEasy.Data.Contexts//
 {
     public class ApplicationDbContext : DbContext
     {
