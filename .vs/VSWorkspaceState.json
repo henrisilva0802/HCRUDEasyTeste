@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\src",
+    "\\src\\HCRUDEasy.Data",
+    "\\src\\HCRUDEasy.Data\\Contexts",
+    "\\src\\HCRUDEasy.Web",
+    "\\src\\HCRUDEasy.Web\\ViewsModels",
+    "\\src\\HCRUDEasy.Web\\wwwroot",
     "\\test",
     "\\test\\UnitTestProject1"
   ],
-  "SelectedNode": "\\test\\UnitTestProject1",
+  "SelectedNode": "\\src\\HCRUDEasy.Data\\Contexts\\ApplicationDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
